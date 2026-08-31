@@ -16,7 +16,7 @@ const memories=[
 {title:'CET ÉTÉ',image:'photos/02-09-26.jpg',text:`Et finalement, quand je repense à cet été…\n\nje vois beaucoup de kilomètres,\n\nquelques plans discutables,\n\ndes galères,\n\ndes paysages incroyables,\n\nbeaucoup trop de crème solaire,\n\net surtout beaucoup de bons souvenirs.\n\nAlors merci pour tout ça.\n\nJ'ai passé un super été avec une amie en or. ☀️\n\nEt puis…\n\n15 photos pour raconter tout ça, c'était peut-être un peu ambitieux.\n\nHeureusement, j'avais prévu autre chose.\n\nÀ suivre.`}
 ];
 
-const STORY_START='2026-09-01';
+const STORY_START='2026-10-31';
 let current=0;
 const $=id=>document.getElementById(id);
 const previewParam=new URLSearchParams(location.search).get('preview');
